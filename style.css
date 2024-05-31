@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.image__container {
+    padding: 40px;
+    text-align: center;
+    color: gray;
+    background-color: lightblue;
+}
+
+.image__container img {
+    width: 250px;
+    height: 250px;
+animation-duration: 2s;
+animation-name: drop;
+    border: solid black 2px;
+}
+@keyframes drop{
+    0%{
+        margin-top: -200px;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+.image__title h1{
+    color: black;
+    
+}
+.image__title h4,p{
+    color: rgb(130, 50, 205);
+}
